@@ -1,0 +1,30 @@
+[
+	{
+		"id": 1,
+    "name": "John",
+    "surname": "Petrov1",
+    "dateBirthday": "25.12.1985",
+    "phone": "8-095-555-55-55",
+    "eMail": "vasya1@gmail.com",
+    "date": "30.01.2015 21:55"
+	},
+	{
+		"id": 2,
+    "name": "Nick",
+    "surname": "Petrov2",
+    "dateBirthday": "30.12.1985",
+    "phone": "8-095-666-55-55",
+    "eMail": "vasya2@gmail.com",
+    "date": "30.02.2015 21:55"
+	},
+	{
+		"id": 3,
+    "name": "Peter",
+    "surname": "Petrov3",
+    "dateBirthday": "04.12.1985",
+    "phone": "8-095-777-55-55",
+    "eMail": "vasya3@gmail.com",
+    "date": "23.02.2015 21:55"
+	}
+
+]

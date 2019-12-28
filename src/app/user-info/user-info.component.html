@@ -1,0 +1,26 @@
+<div *ngIf="user">
+ <div>
+    <div>
+      <span>ID: {{ user.id }}</span>
+    </div>
+    <div>
+      <span>Name: <input id="friend-card__name" type="text" [(ngModel)]="user.name" placeholder="Name.."/></span>
+    </div>
+    <div>
+      <span>Surname: <input id="friend-card__name" type="text" [(ngModel)]="user.surname" placeholder="Surname..."/></span>
+    </div>
+    <div>
+      <span>Date of birthday: <input id="friend-card__name" type="text" [(ngModel)]="user.dateBirthday" placeholder="Birthday..."/></span>
+    </div>
+    <div>
+      <span>Phone: <input id="friend-card__name" type="text" [(ngModel)]="user.phone" placeholder="Phone..."/></span>
+    </div>
+    <div>
+      <span>eMail: <input id="friend-card__name" type="text" [(ngModel)]="user.eMail" placeholder="E-mail..."/></span>
+    </div>
+    <div>
+      <span>Date: {{today | date:'short'}}</span>
+    </div>
+
+  </div>
+</div>

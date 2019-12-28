@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+  margin:0;
+  padding:0;
+  min-width: 320px;
+  height: 100%;
+}
+
+body {
+  font-size: 18px;
+  font-family: Roboto, Calibri, sans-serif;
+  color:#000;
+}
+
+a:link {color:#cfc;}
+a:visited {color:#c0c;}
+a:hover {color:#c0c;}
+a:active {color:#c0c;}
+
+
+
+@media (max-width: 560px) {
+  h1 {
+    font-size:28px;
+  }
+}
